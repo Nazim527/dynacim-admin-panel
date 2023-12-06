@@ -25,9 +25,11 @@ const SideBar = () => {
 
   return (
     <div className='sidebar'>
+      <Link to='/'>
       <div className="sidebar_logo">
         <img src={logoIcon} alt="" />
       </div>
+      </Link>
       <div className="sidebar_content">
         {sidebar_items.map((item,index) => {
           return (
